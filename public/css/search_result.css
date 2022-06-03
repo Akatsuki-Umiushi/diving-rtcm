@@ -1,0 +1,48 @@
+.search_condition {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#search_condition_p {
+  min-width: 70px;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.condition_items {
+  border-bottom: solid 1px;
+  border-color: #959595;
+  margin: 5px;
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.condition_items p {
+  padding: 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.red {
+  color: red;
+}
+
+/* 検索ボタン */
+
+#change_condition {
+  display: block;
+  margin: 30px auto 30px;
+  padding: 10px 40px 10px 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #2453b3;
+  border: none;
+  border-radius: 3px;
+}

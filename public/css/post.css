@@ -1,0 +1,63 @@
+h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.form_wrap {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: #dcdcdc;
+  padding-bottom: 20px;
+
+}
+
+input ,select {
+  width: 100%;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+span {
+  color: red;
+}
+
+.datetime_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datetime_box input {
+  width: 47.5%;
+}
+
+.color_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color_box input {
+  width: auto;
+}
+
+.checkbox_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.check_flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 5%;
+}

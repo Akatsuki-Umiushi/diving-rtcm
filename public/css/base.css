@@ -1,0 +1,40 @@
+
+/* index */
+
+.big {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#post_search {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#post_search button {
+
+}
+#post_search  a {
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+}
+
+#post_button {
+  background-color: #e30017;
+}
+
+#search_button {
+  background-color: #2453b3;
+}
+
+.wrapper h3{
+ padding-left:5% ;
+}

@@ -1,0 +1,131 @@
+/* 写真 */
+
+.detail_img {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 300px;
+  border: solid 1px;
+  border-color: #c0c0c0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+}
+
+.detail_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+
+/* いいね、メニュー */
+.good_and_menu {
+  width: 100px;
+  height: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content:space-between;
+}
+
+.good {
+  padding: 3px 3px 3px 3px;
+  width: 44px;
+  height: auto;
+  cursor: pointer;
+}
+
+.good img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.post_detail_menu {
+  padding: 3px 3px 3px 3px;
+  width: 44px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.post_detail_menu img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+
+/* みつけた、いいね 件数 */
+.count {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-bottom: solid 1px;
+  border-color: #c0c0c0;
+}
+
+.count p {
+  font-size: 12px;
+}
+
+.mitsuketa_count {
+  margin-right: 15px;
+}
+
+/* 詳細テーブル */
+.detail_tr {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: #c0c0c0;
+}
+
+.detail_th {
+  width: 30%;
+  width: 100px;
+  border-right: solid 1px;
+  border-color: #c0c0c0;
+
+}
+
+.text-center  {
+  text-align: center;
+}
+
+.detail_tr p {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.comment {
+padding: 0px 10px 0px 10px;
+}
+
+/* みつけた！一覧 */
+
+.list_title {
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 10px;
+}
+
+.list_title p {
+ font-size:20px;
+ padding-top:5px;
+}
